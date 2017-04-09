@@ -9,3 +9,9 @@ In particular, we focus on the autonomous vehicle platoon control law and the si
 The available spectrum is configured into 1 control channel (CCH) and 6 service channels (SCHs). The CCH is reserved for carrying high-priority short messages or management data,
 while other data are transmitted on the SCHs.  In this paper we analyzed the command delay and collision when platoon devices switching
 between CCH and SCH during merge and split. And all surrunded vehicle keep broadcasting daily massages simultaneously.
+
+Note:
+CPU folder address need to change in matlab code 
+The NS3 code need to copy to Scratch Folder in NS3-3.24
+Shoud be run in:
+./waf --run scratch/Folder_name/Folder_name --command-template="%s 8000"
