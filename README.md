@@ -15,3 +15,7 @@ CPU folder address need to change in matlab code
 The NS3 code need to copy to Scratch Folder in NS3-3.24
 Shoud be run in:
 ./waf --run scratch/Folder_name/Folder_name --command-template="%s 8000"
+
+PS:
+The channel alternating part is not upload here.
+The authority belondes to NTU Transportation Team in Dauwels Lab.
